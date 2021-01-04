@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.bookshop.loginapp.RegisterFormTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 7.356 s <<< FAILURE! - in com.bookshop.loginapp.RegisterFormTest
+testCheckUsername  Time elapsed: 0.041 s  <<< ERROR!
+java.lang.ClassCastException: class javax.swing.plaf.nimbus.DerivedColor$UIResource cannot be cast to class java.awt.Font (javax.swing.plaf.nimbus.DerivedColor$UIResource and java.awt.Font are in module java.desktop of loader 'bootstrap')
+	at com.bookshop.loginapp.RegisterFormTest.testCheckUsername(RegisterFormTest.java:60)
+
+testCheckUsername2  Time elapsed: 4.418 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because the return value of "com.bookshop.loginapp.DataConnection.getConnection()" is null
+	at com.bookshop.loginapp.RegisterFormTest.testCheckUsername2(RegisterFormTest.java:76)
+

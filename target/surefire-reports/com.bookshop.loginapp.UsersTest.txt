@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.bookshop.loginapp.UsersTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.136 s <<< FAILURE! - in com.bookshop.loginapp.UsersTest
+testAddUser2  Time elapsed: 0.02 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-1> but was: <0>
+	at com.bookshop.loginapp.UsersTest.testAddUser2(UsersTest.java:70)
+
+testLogin1  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <0> but was: <-1>
+	at com.bookshop.loginapp.UsersTest.testLogin1(UsersTest.java:83)
+
