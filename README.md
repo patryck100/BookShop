@@ -1,7 +1,7 @@
 # BookShop - Project created using NetBeans
 LoginApp project - Ojbect Oriented Software Engineer
 
-This is a Login application with a mini connection to a local database.
+This is a Login application with a mini connection to a local database with GUI and JUnit test. The application has a Login, Register and Forget password forms which stores user information into a local database and validates every time a user attempts a login, register or change password. 
 
 Into the folder "src" you will find 2 other folders (main and test)
 
